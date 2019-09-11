@@ -3,7 +3,6 @@ language: node_js
 node_js:
   - "10"
 before_script:
-  - git update-index --add --chmod=+x app
   - chmod +x app
   - cd app
   - npm install -g hexo-cli
