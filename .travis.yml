@@ -1,0 +1,6 @@
+dist: app
+language: node_js
+before_script:
+  - cd app
+  - npm install hexo-deployer-git --save
+script: npm test
