@@ -6,6 +6,9 @@ before_script:
   - cd app
   - npm install -g hexo-cli
   - npm install hexo
+  --add --chmod=+x hexo generate
+  --add --chmod=+x hexo clean
+  --add --chmod=+x hexo deploy
   - hexo generate
   - npm install hexo-deployer-git --save
 script: npm test
