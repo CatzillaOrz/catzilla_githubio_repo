@@ -4,5 +4,6 @@ before_script:
   - cd app
   - npm install -g hexo-cli
   - npm install hexo
+  - hexo generate
   - npm install hexo-deployer-git --save
 script: npm test
