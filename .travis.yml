@@ -1,5 +1,7 @@
 dist: app
 language: node_js
+node_js:
+  - "10"
 before_script:
   - cd app
   - npm install -g hexo-cli
