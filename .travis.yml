@@ -8,4 +8,4 @@ before_script:
   - npm install -g hexo-cli
   - npm install hexo
   - npm install hexo-deployer-git --save
-script: npm test
+script: hexo clean && hexo deploy
