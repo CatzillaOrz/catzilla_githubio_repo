@@ -2,5 +2,7 @@ dist: app
 language: node_js
 before_script:
   - cd app
+  - npm install -g hexo-cli
+  - npm install hexo
   - npm install hexo-deployer-git --save
 script: npm test
