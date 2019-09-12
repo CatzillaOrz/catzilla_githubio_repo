@@ -2,7 +2,6 @@ language: node_js
 node_js:
   - '10'
 before_script:
-  - gem install rake
   - chmod +x app
   - cd app
   - openssl aes-256-cbc -K $encrypted_cb40dc9c0807_key -iv $encrypted_cb40dc9c0807_iv
@@ -13,10 +12,12 @@ before_script:
   - git config --global user.name "CatzillaOrz""
   - git config --global user.email catzillaorz@outlook.com
 install:
+  - cd app
   - npm install hexo-cli -g
   - npm install hexo --save
   - npm install
 script:
+  - cd app
   - hexo clean
   - hexo g
   - hexo d
