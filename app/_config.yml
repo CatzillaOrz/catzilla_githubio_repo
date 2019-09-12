@@ -79,6 +79,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/CatzillaOrz/catzillaorz.github.io.git
+  repo: git@github.com:CatzillaOrz/catzillaorz.github.io.git
   branch: master #published
   message:
