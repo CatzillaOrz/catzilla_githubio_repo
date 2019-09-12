@@ -1,7 +1,6 @@
 language: node_js
 node_js:
 - '10'
-
 install:
 - npm install hexo-cli -g
 - npm install hexo-generator-feed --save
@@ -12,6 +11,8 @@ script:
 - hexo g
 - hexo d
 before_install:
+- chmod +x gradlew
+- gem install fir-cli
 - openssl aes-256-cbc -K $encrypted_1a7646e82260_key -iv $encrypted_1a7646e82260_iv
   -in id_rsa_travis.enc -out id_rsa_travis -d
 - eval $(ssh-agent)
