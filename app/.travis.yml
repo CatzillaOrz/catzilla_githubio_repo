@@ -2,20 +2,21 @@ language: node_js
 node_js:
 - '10'
 before_script:
-- chmod +x app
-- cd app
-- openssl aes-256-cbc -K $encrypted_cb40dc9c0807_key -iv $encrypted_cb40dc9c0807_iv
-  - in id_rsa_travis.enc -out id_rsa_travis -d
-- eval $(ssh-agent)
-- ssh-add ~/.ssh/id_rsa_travis
-- cp ssh_config ~/.ssh/config
-- git config --global user.name "CatzillaOrz""
-- git config --global user.email catzillaorz@outlook.com
+  - gem install rake
+  - chmod +x app
+  - cd app
+  - openssl aes-256-cbc -K $encrypted_cb40dc9c0807_key -iv $encrypted_cb40dc9c0807_iv
+    - in id_rsa_travis.enc -out id_rsa_travis -d
+  - eval $(ssh-agent)
+  - ssh-add ~/.ssh/id_rsa_travis
+  - cp ssh_config ~/.ssh/config
+  - git config --global user.name "CatzillaOrz""
+  - git config --global user.email catzillaorz@outlook.com
 install:
-- npm install hexo-cli -g
-- npm install hexo --save
-- npm install
+  - npm install hexo-cli -g
+  - npm install hexo --save
+  - npm install
 script:
-- hexo clean
-- hexo g
-- hexo d
+  - hexo clean
+  - hexo g
+  - hexo d
