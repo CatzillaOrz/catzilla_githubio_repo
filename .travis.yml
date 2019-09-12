@@ -1,7 +1,9 @@
+dist: app
 language: node_js
 node_js:
   - '10'
 before_script:
+  - chmod +x app
   - cd app
   - openssl aes-256-cbc -K $encrypted_cb40dc9c0807_key -iv $encrypted_cb40dc9c0807_iv
     - in id_rsa_travis.enc -out id_rsa_travis -d
