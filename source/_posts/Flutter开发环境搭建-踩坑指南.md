@@ -38,15 +38,15 @@ tags:
     1. 如果。以上几步你都顺利完成了，接下来键入 ```flutter doctor```检查下你还缺少哪些，然后痛苦的install各种失败在向你招手...(后面继续讲，是哪些错误)
 
 3. You need a doctor
-   - 好不容易Flutter也下载好了，环境PATH也设置好啦，doctor，接着说，同学，你的Flutter还需要治疗。然后抛出以下体检结果：
-   - For example:
+    - 好不容易Flutter也下载好了，环境PATH也设置好啦，doctor，接着说，同学，你的Flutter还需要治疗。然后抛出以下体检结果：
+    - For example:
 
-    ```bash
-    Doctor summary (to see all details, run flutter doctor -v):
-    [✓] Flutter (Channel beta, v0.5.1, on Mac OS X 10.13.6 17G65, locale zh-Hans-CN)
-    [!] Android toolchain - develop for Android devices
-        ✗ Android SDK is missing command line tools; download from https://goo.gl/XxQghQ
-    [!] iOS toolchain - develop for iOS devices
+        ```bash
+        Doctor summary (to see all details, run flutter doctor -v):
+        [✓] Flutter (Channel beta, v0.5.1, on Mac OS X 10.13.6 17G65, locale zh-Hans-CN)
+        [!] Android toolchain - develop for Android devices
+            ✗ Android SDK is missing command line tools; download from https://goo.gl/XxQghQ
+        [!] iOS toolchain - develop for iOS devices
         ✗ Xcode installation is incomplete; a full installation is necessary for iOS development.
         Download at: https://developer.apple.com/xcode/download/
         Or install Xcode via the App Store.
@@ -58,14 +58,8 @@ tags:
             brew install ideviceinstaller
         ✗ ios-deploy not installed. To install:
             brew install ios-deploy
-        ✗ CocoaPods not installed.
-            CocoaPods is used to retrieve the iOS platform side's plugin code that responds to your plugin usage on the Dart side.
-            Without resolving iOS dependencies with CocoaPods, plugins will not work on iOS.
-            For more info, see https://flutter.io/platform-plugins
-        To install:
-            brew install cocoapods
-            pod setup
-    ```
+        ✗ CocoaPods not installed. CocoaPods is used to retrieve the iOS platform side's plugin code that your plugin usage on the Dart side.Without resolving iOS dependencies with CocoaPods, plugins will not work on iOS. For more info, see https://flutter.io/platform-plugins To install: brew install cocoapods pod setup
+        ```
 
     - 好在，不管你遇到什么，医生都会告诉你如何用指令安装:
 
@@ -80,18 +74,18 @@ tags:
         1. 如果你以为能一帆风顺那你就大错特错了...
 
 4. Error:
-   - 大多数时候会报这个错：
+    - 大多数时候会报这个错：
 
-    ```bash
-    remote: Counting objects: 8152, done.
-    remote: Compressing objects: 100% (5441/5441), done.
-    error: RPC failed; curl 18 transfer closed with outstanding read data remaining
-    fatal: The remote end hung up unexpectedly
-    fatal: early EOF
-    fatal: index-pack failed
-    Error: Failed to download resource "libimobiledevice"
-    Failure while executing; `git clone --branch master https://git.libimobiledevice.org/libimobiledevice.git /Users/~/Library/Caches/Homebrew/libimobiledevice--git` exited with 128.
-    ```
+        ```bash
+        remote: Counting objects: 8152, done.
+        remote: Compressing objects: 100% (5441/5441), done.
+        error: RPC failed; curl 18 transfer closed with outstanding read data remaining
+        fatal: The remote end hung up unexpectedly
+        fatal: early EOF
+        fatal: index-pack failed
+        Error: Failed to download resource "libimobiledevice"
+        Failure while executing; `git clone --branch master https://git.libimobiledevice.org/libimobiledevice.git /Users/~/Library/Caches/Homebrew/libimobiledevice--git` exited with 128.
+        ```
 
     - 心里一万只神兽喷涌而过。下载100% done ？ 然后跟我报错？
     - 丢出各种搜索到的issue：
