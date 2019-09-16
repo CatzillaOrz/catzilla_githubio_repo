@@ -41,33 +41,33 @@ tags:
    - 好不容易Flutter也下载好了，环境PATH也设置好啦，doctor，接着说，同学，你的Flutter还需要治疗。然后抛出以下体检结果：
    - For example:
 
-        ```bash
-        Doctor summary (to see all details, run flutter doctor -v):
-        [✓] Flutter (Channel beta, v0.5.1, on Mac OS X 10.13.6 17G65, locale zh-Hans-CN)
-        [!] Android toolchain - develop for Android devices
-            ✗ Android SDK is missing command line tools; download from https://goo.gl/XxQghQ
-        [!] iOS toolchain - develop for iOS devices
-            ✗ Xcode installation is incomplete; a full installation is necessary for iOS development.
-            Download at: https://developer.apple.com/xcode/download/
-            Or install Xcode via the App Store.
-            Once installed, run:
-                sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
-            ✗ ideviceinstaller is not installed; this is used to discover connected iOS devices.
-            To install, run:
-                brew install --HEAD libimobiledevice
-                brew install ideviceinstaller
-            ✗ ios-deploy not installed. To install:
-                brew install ios-deploy
-            ✗ CocoaPods not installed.
-                CocoaPods is used to retrieve the iOS platform side's plugin code that responds to your plugin usage on the Dart side.
-                Without resolving iOS dependencies with CocoaPods, plugins will not work on iOS.
-                For more info, see https://flutter.io/platform-plugins
-            To install:
-                brew install cocoapods
-                pod setup
-        ```
+    ```bash
+    Doctor summary (to see all details, run flutter doctor -v):
+    [✓] Flutter (Channel beta, v0.5.1, on Mac OS X 10.13.6 17G65, locale zh-Hans-CN)
+    [!] Android toolchain - develop for Android devices
+        ✗ Android SDK is missing command line tools; download from https://goo.gl/XxQghQ
+    [!] iOS toolchain - develop for iOS devices
+        ✗ Xcode installation is incomplete; a full installation is necessary for iOS development.
+        Download at: https://developer.apple.com/xcode/download/
+        Or install Xcode via the App Store.
+        Once installed, run:
+            sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+        ✗ ideviceinstaller is not installed; this is used to discover connected iOS devices.
+        To install, run:
+            brew install --HEAD libimobiledevice
+            brew install ideviceinstaller
+        ✗ ios-deploy not installed. To install:
+            brew install ios-deploy
+        ✗ CocoaPods not installed.
+            CocoaPods is used to retrieve the iOS platform side's plugin code that responds to your plugin usage on the Dart side.
+            Without resolving iOS dependencies with CocoaPods, plugins will not work on iOS.
+            For more info, see https://flutter.io/platform-plugins
+        To install:
+            brew install cocoapods
+            pod setup
+    ```
 
-        - 好在，不管你遇到什么，医生都会告诉你如何用指令安装:
+    - 好在，不管你遇到什么，医生都会告诉你如何用指令安装:
 
         ```bash
         brew update
