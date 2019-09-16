@@ -25,8 +25,8 @@ tags:
         4. 选择编辑器
 
     - 填坑
-        1. 此处可能需要科学上网```提醒: 中国的开发者们，请先看一下这篇``` [wiki](https://github.com/flutter/flutter/wiki/Using-Flutter-in-China)```，查看是否需要对网络环境进行特别设置。```需要注意的是，其实这一步才是死的人最多的吧。后面大段描述下各种深坑。
-        2. 此处的坑，可能就是一劳永逸的命令行环境变量配置，Mac例子： ```open .bash_profile```点到为止。
+        1. 此处可能需要科学上网`提醒: 中国的开发者们，请先看一下这篇` [wiki](https://github.com/flutter/flutter/wiki/Using-Flutter-in-China)，`查看是否需要对网络环境进行特别设置`。需要注意的是，其实这一步才是死的人最多的吧。后面大段描述下各种深坑。
+        2. 此处的坑，可能就是一劳永逸的命令行环境变量配置，Mac例子： `open .bash_profile`点到为止。
         3. 甩出中文社区教程：[编写你的第一个 Flutter App](https://codelabs.flutter-io.cn/codelabs/first-flutter-app-pt1-cn/index.html#1)
         4. 编辑器当然选择**vs code**，谁用谁知道，[Configure Editor](https://flutter.io/get-started/editor/#vscode)请跟随教程指引，下载安装vs code 所需要的**插件**。
 
@@ -34,8 +34,8 @@ tags:
     - 甩出官网安装指南 [macOS](https://flutter.io/setup-macos/)
     1. 全文一开头就告诉你要用到的一些东西和命令。(以下都是命令行操作，跟着教程敲就可以)
     1. 他建议你安装在 ~/development
-    1. 他建议你下载成功后设置PATH，这块是零时的，你可以试着玩一下，后面直接在 cd ~ 后键入```open .bash_profile```打开后，把你这段 ```export PATH=~/development/flutter/bin:$PATH```加入， 这块的 ```~/development/flutter/bin```这段就是你解压后的真实路径，很好找吧？除非你忘了你解压到哪里了- -！
-    1. 如果。以上几步你都顺利完成了，接下来键入 ```flutter doctor```检查下你还缺少哪些，然后痛苦的install各种失败在向你招手...(后面继续讲，是哪些错误)
+    1. 他建议你下载成功后设置PATH，这块是零时的，你可以试着玩一下，后面直接在 cd ~ 后键入`open .bash_profile`打开后，把你这段 `export PATH=~/development/flutter/bin:$PATH`加入， 这块的 `~/development/flutter/bin`这段就是你解压后的真实路径，很好找吧？除非你忘了你解压到哪里了- -！
+    1. 如果。以上几步你都顺利完成了，接下来键入 `flutter doctor`检查下你还缺少哪些，然后痛苦的install各种失败在向你招手...(后面继续讲，是哪些错误)
 
 3. You need a doctor
     - 好不容易Flutter也下载好了，环境PATH也设置好啦，doctor，接着说，同学，你的Flutter还需要治疗。然后抛出以下体检结果：
@@ -122,13 +122,13 @@ tags:
     git config https.postBuffer 524288000
     ```
 
-    - 如果你试了以上办法真的，还是下载失败。最后的秘诀当然不是，重启电脑，应该是```多试几次```
+    - 如果你试了以上办法真的，还是下载失败。最后的秘诀当然不是，重启电脑，应该是`多试几次`
     - **多试几次**
     - **多试几次**
     - **多试几次**
     - 意思就是**多执行几次** brew install让他多去 pull 几次 github的 master
     - 为什么不是 pip 或者 ruby，因为真的没遇到过这俩个出问题，几乎都是brew
-    - 说了那么多，最后还是在执行了 ```brew install --HEAD libimobiledevice``` 13次？还是23次，后终于自动成功了。ᔪ(⁰́◊⁰̀)ᔭ OMG
+    - 说了那么多，最后还是在执行了 `brew install --HEAD libimobiledevice` 13次？还是23次，后终于自动成功了。ᔪ(⁰́◊⁰̀)ᔭ OMG
 
 ## Finally
 
