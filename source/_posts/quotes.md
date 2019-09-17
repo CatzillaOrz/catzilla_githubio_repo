@@ -4,7 +4,10 @@ date: 2019-09-11 15:32:04
 tags:
 ---
 
-## Quotes
+## 扇贝
+
+- Whatever is worth doing at all is worth doing well.
+- 任何值得做的事，都值得将其做好。
 
 - Our growth depends not on how many experiences we devour, but on how many we digest.
 - 成长靠的不是经历有多丰富，而是对过往经历的的细细品味和领会。
