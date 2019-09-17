@@ -1,8 +1,8 @@
 # Header
 menu:
-  Home: /tags/GFW/
+  Home: /
   Archives: /archives
-rss: /archives/
+rss: /atom.xml
 
 # Content
 excerpt_link: Read More
