@@ -54,7 +54,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: catzilla
 category_map:
 tag_map:
 
@@ -74,6 +74,11 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
+
+menu:
+  Home: /tags/GFW/
+  Archives: /archives
+rss: /archives/
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
