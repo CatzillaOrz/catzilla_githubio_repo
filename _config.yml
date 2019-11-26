@@ -76,8 +76,8 @@ pagination_dir: page
 theme: landscape
 
 menu:
-  Home: /2019/09/17/翻墙/
-  Archives: /archives
+  Home: /archives
+  Archives: /
 rss: /archives/
 
 # Deployment
