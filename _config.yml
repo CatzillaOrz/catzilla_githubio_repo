@@ -76,8 +76,8 @@ pagination_dir: page
 theme: landscape
 
 menu:
-  Home: /archives
-  Archives: /
+  Home: /
+  Archives: /archives
 rss: /archives/
 
 # Deployment
