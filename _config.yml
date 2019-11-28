@@ -75,6 +75,14 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: yilia-plus
 
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+- type: git
+  repo: git@github.com:CatzillaOrz/catzillaorz.github.io.git
+  branch: master #published
+  message:
+
 # Header-菜单
 menu:
   主页: /
