@@ -4,8 +4,8 @@
 
 # Site
 title: Catzilla
-subtitle:
-description:
+subtitle: Be humble
+description: 白驹过隙 沧海一粟沧海一栗
 keywords:
 author: catzillaorz
 language: en
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: yilia-plus
 
 menu:
   Home: /
