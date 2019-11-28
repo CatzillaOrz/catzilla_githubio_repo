@@ -76,9 +76,9 @@ pagination_dir: page
 # theme: landscape
 theme: hexo-theme-huhu
 
-menu:
-  Home: /
-  Archives: /archives
+# menu:
+#   Home: /
+#   Archives: /archives
 rss: /archives/
 
 # Deployment
