@@ -167,7 +167,7 @@ baidu_analytics: ''
 google_analytics: ''
 
 # 网站图标
-favicon:
+favicon: /theme/favicon.ico
 
 # 你的头像url
 avatar: /theme/avtar.jpg
