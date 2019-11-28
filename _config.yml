@@ -110,5 +110,31 @@ friends:
 
 #reward
 reward:
-  weixin: 'theme/alipay.png'
-  zhifubao: 'theme/wxpay.png'
+  weixin: 'theme/alipay.jpeg'
+  zhifubao: 'theme/wxpay.jpeg'
+
+#菜单导航
+menu:
+  home: /
+  archives: /archives
+  categories: /categories
+  tags: /tags
+  friends: /friends
+  about: /about
+
+#logo
+logo: /theme/avtar.JPG
+
+#categories-max
+categories_max: 5
+
+#tags-max
+tags_max: 10
+
+#favicon
+favicon: /theme/favicon.ico
+
+follow:
+  github: 'https://github.com/catzillaorz'
+  facebook: 'https://www.facebook.com/'
+  instagram: 'https://www.instagram.com/'
