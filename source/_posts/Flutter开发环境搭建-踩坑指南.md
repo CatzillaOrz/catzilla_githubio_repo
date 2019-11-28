@@ -23,7 +23,7 @@ tags: Flutter
         2. 环境配置
         3. 下完了，该干啥
         4. 选择编辑器
-
+<!-- more -->
     - 填坑
         1. 此处可能需要科学上网`提醒: 中国的开发者们，请先看一下这篇` [wiki](https://github.com/flutter/flutter/wiki/Using-Flutter-in-China)，`查看是否需要对网络环境进行特别设置`。需要注意的是，其实这一步才是死的人最多的吧。后面大段描述下各种深坑。
         2. 此处的坑，可能就是一劳永逸的命令行环境变量配置，Mac例子： `open .bash_profile`点到为止。

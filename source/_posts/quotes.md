@@ -23,7 +23,7 @@ tags: 扇贝
 
 - Don’t get so busy making a living that you forget to make a life.
 - 千万不要忙着营生而忘了享受人生。
-
+<!-- more -->
 - Health is the thing that makes you feel that now is the best time of the year.
 - 身体健康会让你觉得一年之中，此时此刻是最美好的。
 
