@@ -80,6 +80,8 @@ menu:
   Archives: /archives
 rss: /archives/
 
+# 网站图标
+favicon: https://joeybling.github.io/favicon.ico
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
