@@ -116,24 +116,25 @@ menu:
   friends: /friends
   about: /about
 
-#logo
-logo: /theme/avtar.JPG
+theme_config:
+  #logo
+  logo: /theme/avtar.JPG
 
-#categories-max
-categories_max: 5
+  #categories-max
+  categories_max: 5
 
-#tags-max
-tags_max: 10
+  #tags-max
+  tags_max: 10
 
-#favicon
-favicon: /theme/favicon.ico
+  #favicon
+  favicon: /theme/favicon.ico
 
-follow:
-  github: 'https://github.com/catzillaorz'
-  # facebook: 'https://www.facebook.com/'
-  # instagram: 'https://www.instagram.com/'
+  follow:
+    github: 'https://github.com/catzillaorz'
+    # facebook: 'https://www.facebook.com/'
+    # instagram: 'https://www.instagram.com/'
 
-#reward
-reward:
-  weixin: 'theme/alipay.jpeg'
-  zhifubao: 'theme/wxpay.jpeg'
+  #reward
+  reward:
+    weixin: 'theme/alipay.jpeg'
+    zhifubao: 'theme/wxpay.jpeg'
