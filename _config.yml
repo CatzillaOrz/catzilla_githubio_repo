@@ -131,8 +131,8 @@ favicon: /theme/favicon.ico
 
 follow:
   github: 'https://github.com/catzillaorz'
-  facebook: 'https://www.facebook.com/'
-  instagram: 'https://www.instagram.com/'
+  # facebook: 'https://www.facebook.com/'
+  # instagram: 'https://www.instagram.com/'
 
 #reward
 reward:
