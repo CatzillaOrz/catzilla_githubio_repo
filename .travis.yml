@@ -22,8 +22,8 @@ script:                       # 在构建阶段需要运行的命令，一条一
   - hexo generate             # Hexo 常规命令，执行清理和生成
 
 after_success:                # script 阶段成功时执行，构建失败不会执行，其他同上
-  - sed -i 's/theme: landscape/theme: hexo-theme-huhu/g' _config.yml
   - git config --local user.name "catzilla"
   - git config --local user.email "catzilla@outlook.com"
   - sed -i'' "s~git@github.com:~https://${GITHUB_REPO_TOKEN}@github.com/~" _config.yml
+  - sed -i'' "s~landscape~hexo-theme-huhu/~" _config.yml
   - hexo deploy > /dev/null  # 通过 Hexo 的 deploy 命令部署博客
