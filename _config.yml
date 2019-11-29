@@ -108,11 +108,6 @@ friends:
     logo: 'https://www.donlex.cn/images/avatar.png'
     intro: '码农'
 
-#reward
-reward:
-  weixin: 'theme/alipay.jpeg'
-  zhifubao: 'theme/wxpay.jpeg'
-
 #菜单导航
 menu:
   home: /
@@ -138,3 +133,8 @@ follow:
   github: 'https://github.com/catzillaorz'
   facebook: 'https://www.facebook.com/'
   instagram: 'https://www.instagram.com/'
+
+#reward
+reward:
+  weixin: 'theme/alipay.jpeg'
+  zhifubao: 'theme/wxpay.jpeg'
