@@ -18,9 +18,10 @@ install:                      # 在安装项目环境阶段需要运行的命令
   - npm install               # 安装 package.json 中的依赖
 
 script:                       # 在构建阶段需要运行的命令，一条一行，类似的还有 before_script、after_script
-  - sed -i'' "s~landscape~hexo-theme-huhu/~" _config.yml
+  - sed -i'' "s~landscape~hexo-theme-huhu/~" _config.yml                                                  #替换主题
   - hexo clean
   - hexo generate             # Hexo 常规命令，执行清理和生成
+  - find -mindepth 2 -name 'index.html' -exec sed -i s~images/logo.jpeg~theme/avtar.JPG~/g {} +           #替换logo
 
 
 after_success:                # script 阶段成功时执行，构建失败不会执行，其他同上
