@@ -7,6 +7,7 @@ tags: serverless
 
 ## 背景
 
+原文地址：
 [Serverless For Frontend](https://zhuanlan.zhihu.com/p/77095720)
 [Rethink: Serverless For Frontend](https://www.yuque.com/egg/nodejs/sff-slide)
 

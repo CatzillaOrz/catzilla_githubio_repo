@@ -1,5 +1,5 @@
 ---
 title: categories
-layout: tags
+layout: categories
 date: 2019-11-28 17:52:09
 ---

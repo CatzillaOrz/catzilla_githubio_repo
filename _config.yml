@@ -101,12 +101,6 @@ jsonContent:
     permalink: true
     photos: true
   file: content.json
-friends:
-  - name: Don Lex
-    time: '2019-10-12'
-    url: 'https://www.donlex.cn/'
-    logo: 'https://www.donlex.cn/images/avatar.png'
-    intro: '码农'
 
 #菜单导航
 menu:
@@ -139,3 +133,17 @@ theme_config:
   reward:
     weixin: 'theme/alipay.jpeg'
     zhifubao: 'theme/wxpay.jpeg'
+
+  friends:
+    - name: Don Lex
+      time: '2019-10-12'
+      url: 'https://www.donlex.cn/'
+      logo: 'https://www.donlex.cn/images/avatar.png'
+      intro: '码农'
+
+  highlight:
+    enable: true
+    hljs: true #新增hljs参数，并设为true，不然无法使用highlight.js 官方的 css
+    line_number: false #暂不支持行号
+    auto_detect: false #这一项也关闭，若开启有可能报错
+    tab_replace:
