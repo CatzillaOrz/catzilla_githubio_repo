@@ -1,11 +1,11 @@
 ---
-layout: flutter
 title: Flutter开发环境搭建-踩坑指南
-date: 2019-09-16 12:09:30
 tags:
   - Flutter
 categories:
   - Frontend
+layout: flutter
+date: 2019-09-16 12:09:30
 ---
 
 ![logo](https://pub.dartlang.org/static/img/flutter-packages.png)
