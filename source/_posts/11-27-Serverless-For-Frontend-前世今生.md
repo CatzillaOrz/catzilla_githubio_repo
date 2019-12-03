@@ -2,7 +2,10 @@
 layout: 'rethink: serverless for frontend'
 title: Serverless For Frontend 前世今生
 date: 2019-11-27 17:12:14
-tags: serverless
+tags:
+  - serverless
+categories:
+  - Frontend
 ---
 
 ## 背景
