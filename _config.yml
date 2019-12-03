@@ -105,12 +105,12 @@ jsonContent:
 
 #菜单导航
 menu:
-  home: /
-  archives: /archives
-  categories: /categories
-  tags: /tags
-  friends: /friends
-  about: /about
+  # home: /
+  # archives: /archives
+  # categories: /categories
+  # tags: /tags
+  # friends: /friends
+  # about: /about
 
 theme_config:
   #logo
@@ -120,7 +120,7 @@ theme_config:
   categories_max: 5
 
   #tags-max
-  tags_max: 10
+  # tags_max: 10
 
   #favicon
   favicon: /theme/favicon.ico
