@@ -7,4 +7,4 @@
 
 ## travis status
 
-![](https://travis-ci.org/CatzillaOrz/catzilla_githubio_repo.svg?branch=master)
+![travis](https://travis-ci.org/CatzillaOrz/catzilla_githubio_repo.svg?branch=master)
