@@ -38,11 +38,6 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
-# highlight:
-#   enable: true
-#   line_number: true
-#   auto_detect: false
-#   tab_replace:
 highlight:
   enable: true
   hljs: true #新增hljs参数，并设为true，不然无法使用highlight.js 官方的 css
