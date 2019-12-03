@@ -105,12 +105,12 @@ jsonContent:
 
 #菜单导航
 menu:
-  # home: /
-  # archives: /archives
-  # categories: /categories
-  # tags: /tags
-  # friends: /friends
-  # about: /about
+  home: /
+  archives: /archives
+  categories: /categories
+  tags: /tags
+  friends: /friends
+  about: /about
 
 theme_config:
   #logo
