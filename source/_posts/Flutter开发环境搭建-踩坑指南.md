@@ -11,7 +11,7 @@ date: 2019-09-16 12:09:30
 ![logo](https://pub.dartlang.org/static/img/flutter-packages.png)
 
 ## Flutter开发环境搭建-踩坑指南
-
+<!-- more -->
 相信有不少同学，一开始就被环境搭建恶心到，从而放弃。或者开始抱怨各种坑多，不愿再尝试。
 
 很多同学可能看了太多关于Flutter的文章，都很想上手，但大多数都死在了搭建环境这一步。没关系，今天就来点不一样的，带你们从0开始，搭建你的Flutter环境。
@@ -33,7 +33,7 @@ date: 2019-09-16 12:09:30
         3. 甩出中文社区教程：[编写你的第一个 Flutter App](https://codelabs.flutter-io.cn/codelabs/first-flutter-app-pt1-cn/index.html#1)
         4. 编辑器当然选择**vs code**，谁用谁知道，[Configure Editor](https://flutter.io/get-started/editor/#vscode)请跟随教程指引，下载安装vs code 所需要的**插件**。
 
-2. Install on macOS
+1. Install on macOS
     - 甩出官网安装指南 [macOS](https://flutter.io/setup-macos/)
     1. 全文一开头就告诉你要用到的一些东西和命令。(以下都是命令行操作，跟着教程敲就可以)
     1. 他建议你安装在 ~/development
