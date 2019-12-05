@@ -4,7 +4,6 @@ tags:
   - serverless
 categories:
   - Frontend
-layout: ''
 date: 2019-11-27 17:12:14
 ---
 
