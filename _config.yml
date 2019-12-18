@@ -137,8 +137,8 @@ theme_config:
     zhifubao: 'theme/wxpay.jpeg'
 
   friends:
-    - name: Don Lex
+    - name: V2EX
       time: '2019-10-12'
-      url: 'https://www.donlex.cn/'
-      logo: 'https://www.donlex.cn/images/avatar.png'
-      intro: '码农'
+      url: 'https://www.v2ex.com/?r=catzilla'
+      logo: '//cdn.v2ex.com/gravatar/0b546050a6d45824e74c865bac768363?s=48&d=retro'
+      intro: 'V2EX'
