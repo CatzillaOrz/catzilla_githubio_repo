@@ -7,9 +7,9 @@ tags:
 categories: codewars
 ---
 
-## codewar
+#### javascript - 7 kyu Love vs friendship
 
-### 7 kyu Love vs friendship
+- 7 kyu Love vs friendship
 <!-- more -->
 
 ```js
@@ -24,7 +24,34 @@ So friendship is twice stronger than love :-)
 The input will always be in lowercase and never be empty.
 ```
 
+- solution:
+
 ```js
 const wordsToMarks = s => [...s].reduce((res, c) => res += c.charCodeAt() - 96, 0)
+
+```
+
+#### shell - 8kyu Even or Odd
+
+- 8kyu Even or Odd
+
+```shell
+
+#!/bin/bash
+# your code here
+
+(( $1 & 1 )) && echo "Odd" || echo "Even"
+
+```
+
+#### shell - 8kyu Opposite number
+
+- 8kyu Opposite number
+
+```shell
+
+#!/bin/bash
+echo "- $1" | bc
+
 
 ```
