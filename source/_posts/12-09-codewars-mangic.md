@@ -7,7 +7,7 @@ tags:
 categories: codewars
 ---
 
-#### javascript - 7 kyu Love vs friendship
+##### javascript - 7 kyu Love vs friendship
 
 - 7 kyu Love vs friendship
 <!-- more -->

@@ -10,7 +10,7 @@ date: 2019-09-16 12:09:30
 
 
 
-## Flutter开发环境搭建-踩坑指南
+##### Flutter开发环境搭建-踩坑指南
 <!-- more -->
 ![logo](https://pub.dartlang.org/static/img/flutter-packages.png)
 
@@ -20,7 +20,7 @@ date: 2019-09-16 12:09:30
 
 - 这种文章本来没有必要出，但既然坑都踩了，方便大家搜索快速定位问题，就特意记录下各种深坑，也是为了方便大家快速定位解决问题，欢迎大家围观。
 
-## Get started: install
+##### Get started: install
 
 1. [各个操作平台需要下载的Flutter](https://flutter.io/get-started/install/)
     - 坑位
