@@ -178,3 +178,6 @@ date: 2019-09-11 15:32:04
 - Appreciation is a wonderful thing. It makes what is excellent in others belong
   to us as well.
 - 欣赏是一件美妙的事，它让别人的优点也成为我们自己的。
+
+- You want to fly with the eagles . You need bigger wings . -Need for Speed
+- 你想像雄鹰一样飞翔，就需要更宽大的翅膀。
