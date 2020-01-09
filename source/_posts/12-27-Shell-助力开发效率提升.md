@@ -25,6 +25,14 @@ categories: Shell
 - 常用快捷键(bindkey)
 - 演示: 高亮/git/智能补全/跳转(j,d)…
 
+###### Terminal Cheatsheet
+
+- env | grep
+
+```bash
+env | grep QMSAUTHN_
+```
+
 ###### Shell 基础命令
 
 - which/whereis, 常用 whatis, man, --help
