@@ -7,6 +7,18 @@ tags:
 categories: Music
 ---
 
+##### 音乐也有科学道理吗？Do、Re、Mi...都是如何确定的？李永乐老师讲音律
+
+###### 古代音律
+
+- 毕达哥拉斯：五度相生法
+  - 频率： 2:1 4:3 3:2
+  - 频率与弦长和重量有关
+
+> ![show notes](https://weibo.com/1804557724/IoHEf70g5)
+>
+> [Youtube link](https://www.youtube.com/watch?v=v5QlocAclXY)
+
 ##### 五度音环——如何真正地用好它
 
 C G D A E B F(#)
