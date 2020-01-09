@@ -15,7 +15,7 @@ categories: Music
   - 频率： 2:1 4:3 3:2
   - 频率与弦长和重量有关
 
-> ![show notes](https://weibo.com/1804557724/IoHEf70g5)
+> ![show notes](http://wx3.sinaimg.cn/large/6b8f5d9cly1gaqg0jbenoj21hy0tq4qq.jpg)
 >
 > [Youtube link](https://www.youtube.com/watch?v=v5QlocAclXY)
 
