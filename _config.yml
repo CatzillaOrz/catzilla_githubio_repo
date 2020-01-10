@@ -133,8 +133,8 @@ theme_config:
 
   #reward
   reward:
-    weixin: 'http://q3velv3hp.bkt.gdipper.com/github/blog/img/alipay.jpeg'
-    zhifubao: 'http://q3velv3hp.bkt.gdipper.com/github/blog/img/wxpay.jpeg'
+    weixin: '/q3velv3hp.bkt.gdipper.com/github/blog/img/alipay.jpeg'
+    zhifubao: '/q3velv3hp.bkt.gdipper.com/github/blog/img/wxpay.jpeg'
 
   friends:
     - name: V2EX
