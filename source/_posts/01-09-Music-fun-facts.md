@@ -15,7 +15,16 @@ categories: Music
   - 频率： 2:1 4:3 3:2
   - 频率与弦长和重量有关
 
-> ![show notes](http://wx3.sinaimg.cn/large/6b8f5d9cly1gaqg0jbenoj21hy0tq4qq.jpg)
+- 管仲：三分损宜法
+  - 宫、商、角、 徵、羽
+
+###### 现代韵律
+
+- 十二平均律
+
+###### 物理实验
+
+> [板书截图](http://q3velv3hp.bkt.gdipper.com/github/blog/img/音乐也有科学道理吗.png)
 >
 > [Youtube link](https://www.youtube.com/watch?v=v5QlocAclXY)
 
