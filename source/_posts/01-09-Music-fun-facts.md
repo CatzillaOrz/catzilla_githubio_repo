@@ -1,10 +1,12 @@
 ---
 title: Music fun facts
-date: 2020-01-09 16:00:27
 tags:
     - Music
     - tips
+    - Lee
+    - YouTube
 categories: Music
+date: 2020-01-09 16:00:27
 ---
 
 ##### 音乐也有科学道理吗？Do、Re、Mi...都是如何确定的？李永乐老师讲音律

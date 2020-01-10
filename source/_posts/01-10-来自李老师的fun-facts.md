@@ -1,7 +1,11 @@
 ---
 title: 来自李老师的fun facts
-date: 2020-01-10 14:54:27
 tags:
+    - tips
+    - Lee
+    - YouTube
+categories: Lee
+date: 2020-01-10 14:54:27
 ---
 
 ##### 996工作制是奋斗还是剥削？你该不该加班？李永乐老师讲机会成本
