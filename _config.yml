@@ -133,8 +133,8 @@ theme_config:
 
   #reward
   reward:
-    weixin: '/theme/alipay.jpeg'
-    zhifubao: '/theme/wxpay.jpeg'
+    weixin: 'theme/alipay.jpeg'
+    zhifubao: 'theme/wxpay.jpeg'
 
   friends:
     - name: V2EX
