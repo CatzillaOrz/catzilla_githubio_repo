@@ -189,6 +189,10 @@ To check that a user is authenticated before accessing a resource, simply use ke
 - server端ssl等意外请求报错
   - process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';的配置可能会影响 Keycloak的 Node Adapter 的正常使用，此处是一个很大的坑！
 
+- readmore
+  - Nodejs Passport 系列之一：基础概念
+    - [Nodejs Passport 系列之一：基础概念](https://www.shangyang.me/2018/03/07/javascript-nodejs-passport-01-basic/)
+
 ###### Read more
 
 [blog-Keycloak and Express](https://codeburst.io/keycloak-and-express-7c71693d507a)
