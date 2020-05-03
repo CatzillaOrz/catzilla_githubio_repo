@@ -11,7 +11,7 @@ categories:
 
 ###### 从DevOps流程看前端基建
 
-![image](https://user-images.githubusercontent.com/15953622/80898542-434c1a00-8d37-11ea-93d1-3f092160bde6.png)
+![20200503151646-2020-05-03](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/20200503151646-2020-05-03.png)
 
 ---
 
