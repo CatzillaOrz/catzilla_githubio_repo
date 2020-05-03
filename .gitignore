@@ -8,3 +8,7 @@ public/
 # Auto-generated tag files
 tags
 !tags/
+
+# vsc config
+
+.vscode/

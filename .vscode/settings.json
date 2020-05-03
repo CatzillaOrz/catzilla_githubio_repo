@@ -1,8 +1,3 @@
 {
-    "picgo.picBed.current": "github",
-    "picgo.picBed.github.token": "59cfdec15a322de9046b8d33ab88cf195dcecba3",
-    "picgo.picBed.github.repo": "CatzillaOrz/imgcdn",
-    "picgo.picBed.github.path": "vsc_img/",
-    "picgo.picBed.github.branch": "master",
     "picgo.customUploadName": "${fileName}${date}${extName}"
 }
