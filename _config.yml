@@ -9,7 +9,7 @@ description:
 keywords:
 author: catzillaorz
 language: en
-timezone:
+timezone: en-US
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -115,7 +115,7 @@ menu:
 
 theme_config:
   #logo
-  logo: /theme/avatar.JPG
+  logo: '//raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/avatar2020-05-03.JPG'
 
   #categories-max
   categories_max: 5
@@ -133,8 +133,8 @@ theme_config:
 
   #reward
   reward:
-    weixin: 'theme/alipay.jpeg'
-    zhifubao: 'theme/wxpay.jpeg'
+    weixin: '//raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/wxpay2020-05-03.jpeg'
+    zhifubao: '//raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/alipay2020-05-03.jpeg'
 
   friends:
     - name: V2EX
