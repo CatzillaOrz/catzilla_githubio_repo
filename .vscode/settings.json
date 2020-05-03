@@ -1,3 +1,8 @@
 {
-    "picgo.customUploadName": "${fileName}${date}${extName}"
+    "picgo.customUploadName": "${fileName}-${date}${extName}",
+    "picgo.picBed.current": "github",
+    "picgo.picBed.github.path": "vsc_img/",
+    "picgo.picBed.github.repo": "CatzillaOrz/imgcdn",
+    "picgo.picBed.github.token": "2c9e120389965316b9dcdb37085b15ec7817a139",
+    "picgo.picBed.github.branch": "master"
 }

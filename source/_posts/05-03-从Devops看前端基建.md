@@ -13,6 +13,12 @@ categories:
 
 ![image](https://user-images.githubusercontent.com/15953622/80898542-434c1a00-8d37-11ea-93d1-3f092160bde6.png)
 
+---
+
+![devops-2020-05-03](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/devops-2020-05-03.png)
+
+---
+
 当你进入一个新团队，前端从 0 开始，怎样从DevOps的角度去提高团队效能呢？
 
 ![devops流程和工具](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img20200503134221.png)
