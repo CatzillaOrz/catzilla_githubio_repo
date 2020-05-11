@@ -37,3 +37,9 @@ Keyboard shortcuts
 | ------------ | ----------------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
 | Windows/Unix | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>E</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>O</kbd> |
 | OsX          | <kbd>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>U</kbd>  | <kbd>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>E</kbd>  | <kbd>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>O</kbd>  |
+
+##### Readmore
+
+[推荐1: 一款在线md排版编辑器，可用于微信公众号](https://mdnice.com/)
+
+[推荐2: 一款在线全部md语法示例+在线编辑](https://stackedit.io/app#)
