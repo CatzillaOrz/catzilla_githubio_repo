@@ -82,3 +82,5 @@ categories:
     ]
 }
 ```
+
+[vsc-cn-doc](https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/md/%E7%BC%96%E8%BE%91%E5%99%A8/%E8%B0%83%E8%AF%95.html)
