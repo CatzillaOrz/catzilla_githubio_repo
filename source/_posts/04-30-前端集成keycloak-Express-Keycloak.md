@@ -194,7 +194,12 @@ To check that a user is authenticated before accessing a resource, simply use ke
 
 ###### Read more
 
+[Keycloak Node.js Adapter 官方文档](https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.2/html-single/securing_applications_and_services_guide/index#nodejs_adapter)
+
+[Keycloak Node.js Adapter Latest 官方文档](https://www.keycloak.org/docs/latest/securing_apps/index.html#_nodejs_adapter)
+
 [blog-Keycloak and Express](https://codeburst.io/keycloak-and-express-7c71693d507a)
+
 [blog-Openshift, Node and Keycloak](https://medium.com/@auscunningham/openshift-node-and-keycloak-67b25582f51c)
 
 [官方Basic NodeJS Example-keycloak-nodejs-connect](https://github.com/keycloak/keycloak-nodejs-connect/tree/54815e742a931fe6f750a4a024c37ccc4d4fdc43/example)
