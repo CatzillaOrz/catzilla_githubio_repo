@@ -73,7 +73,7 @@ categories:
             "request": "attach",
             "port": 9229,
             "address": "localhost",
-            "restart": false,
+            "restart": true,
             "sourceMaps": false,
             "outFiles": [],
             "localRoot": "${workspaceRoot}/universal/",
@@ -84,3 +84,5 @@ categories:
 ```
 
 [vsc-cn-doc](https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/md/%E7%BC%96%E8%BE%91%E5%99%A8/%E8%B0%83%E8%AF%95.html)
+
+[中文文档已过期，建议查看最新官方文档](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
