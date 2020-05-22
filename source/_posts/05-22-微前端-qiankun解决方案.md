@@ -2,6 +2,9 @@
 title: 微前端-qiankun2.0
 date: 2020-05-22 17:53:41
 tags:
+  - SPA
+categories:
+  - SPA
 ---
 
 ###### Why not Iframe

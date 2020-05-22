@@ -4,7 +4,7 @@ date: 2020-05-22 16:38:53
 tags:
   - SPA
 categories:
-  - Frontend
+  - SPA
 ---
 
 ###### JavaScript 微前端
