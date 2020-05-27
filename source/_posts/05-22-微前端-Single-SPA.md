@@ -46,8 +46,9 @@ Single-spa 包括以下内容:
 
 Tutorial video: [Youtube](https://www.youtube.com/watch?v=Jxqiu6pdMSU&list=PLLUD8RtHvsAOhtHnyGx57EYXoaNsxGrTU&index=2) / [Bilibili](https://www.bilibili.com/video/av83498486/)
 
-###### readmore
+###### READMORE
 
 - [examples](https://zh-hans.single-spa.js.org/docs/examples)
 - [Video tutorials](https://zh-hans.single-spa.js.org/docs/videos)
 - [single-spa 生态系统](https://zh-hans.single-spa.js.org/docs/ecosystem)
+- [微前端在小米CRM系统的实践](https://mp.weixin.qq.com/s/jz4EthRMt-kMEMFWPzcNow)
