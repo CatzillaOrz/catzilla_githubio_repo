@@ -293,3 +293,7 @@ Keycloak针对资源服务器的不同需求，提供了不同端点（如token�
   - 获取RPT
 
 - 设置TLS/HTTPS
+
+> 1. [keycloak授权](https://juejin.im/post/6844904202033086477#heading-47)
+>
+> 1. [keycloak授权](https://juejin.im/post/6844904202041294862#heading-2)
