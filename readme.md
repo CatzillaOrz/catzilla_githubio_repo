@@ -18,11 +18,11 @@ $hexo new photo "My Gallery"
 ## img_cdn
 
 - wxpay
-![wxpay2020-05-03](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/wxpay2020-05-03.jpeg)
+![wxpay2020-05-03](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/wxpay2020-05-03.jpeg)
 
 - alipay
-![alipay2020-05-03](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/alipay2020-05-03.jpeg)
+![alipay2020-05-03](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/alipay2020-05-03.jpeg)
 
 - avatar
-![avatar2020-05-03](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/avatar2020-05-03.JPG)
+![avatar2020-05-03](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/avatar2020-05-03.JPG)
 

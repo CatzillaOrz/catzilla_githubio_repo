@@ -93,7 +93,7 @@ For information on how to install a Russian keyboard layout, please click here.
 
 An Italic Г in lower case usually looks this: г.
 
-![20200612173918-2020-06-12-17-39-18-](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/20200612173918-2020-06-12-17-39-18-.png)
+![20200612173918-2020-06-12-17-39-18-](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/20200612173918-2020-06-12-17-39-18-.png)
 
 That's it with the introduction! We will discuss reading words in more detail in later skills.
 

@@ -11,17 +11,17 @@ categories:
 
 ###### 从DevOps流程看前端基建
 
-![20200503151646-2020-05-03](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/20200503151646-2020-05-03.png)
+![20200503151646-2020-05-03](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/20200503151646-2020-05-03.png)
 
 ---
 
-![devops-2020-05-03](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/devops-2020-05-03.png)
+![devops-2020-05-03](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/devops-2020-05-03.png)
 
 ---
 
 当你进入一个新团队，前端从 0 开始，怎样从DevOps的角度去提高团队效能呢？
 
-![devops流程和工具](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img20200503134221.png)
+![devops流程和工具](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img20200503134221.png)
 
 一套简易的DevOps流程包含了协作、构建、测试、部署、运行。
 
@@ -120,7 +120,7 @@ DevOps核心思想就是：“快速交付价值，灵活响应变化”。其�
 
     这层校验，一般在稍大点的企业中，会由运维部的配置组完成。
 
-    ![20200503135413](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img20200503135413.png)
+    ![20200503135413](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img20200503135413.png)
 
 1. 统一前端物料
 
@@ -134,7 +134,7 @@ DevOps核心思想就是：“快速交付价值，灵活响应变化”。其�
 虽然各大组件库都有提供初始化变量的方式，但业务向的组件就没办法了。
 解决方案之一，就是国外很火的一个开源库：`StoryBook`:
 
-![20200503140528](https://raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/20200503140528.png)
+![20200503140528](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/20200503140528.png)
 
 Storybook是一个开源工具，用于独立开发React、Vue和Angular的UI组件。它能有组织和高效地构建 UI 组件。
 
