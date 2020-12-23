@@ -115,7 +115,7 @@ menu:
 
 theme_config:
   #logo
-  logo: '//raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/avatar2020-05-03.JPG'
+  logo: '//cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/avatar2020-05-03.JPG'
 
   #categories-max
   categories_max: 5
@@ -133,8 +133,8 @@ theme_config:
 
   #reward
   reward:
-    weixin: '//raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/wxpay2020-05-03.jpeg'
-    zhifubao: '//raw.githubusercontent.com/CatzillaOrz/imgcdn/master/vsc_img/alipay2020-05-03.jpeg'
+    weixin: '//cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/wxpay2020-05-03.jpeg'
+    zhifubao: '//cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/alipay2020-05-03.jpeg'
 
   friends:
     - name: V2EX
