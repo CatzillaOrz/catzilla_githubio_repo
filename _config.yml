@@ -50,7 +50,7 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -85,10 +85,10 @@ rss: /archives/
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
-  repo: git@github.com:CatzillaOrz/catzillaorz.github.io.git
-  branch: master #published
-  message:
+  - type: git
+    repo: git@github.com:CatzillaOrz/catzillaorz.github.io.git
+    branch: master #published
+    message:
 
 #https://github.com/alexbruno/hexo-generator-json-content
 jsonContent:
@@ -115,7 +115,7 @@ menu:
 
 theme_config:
   #logo
-  logo: '//cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/avatar2020-05-03.JPG'
+  logo: "//cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/avatar2020-05-03.JPG"
 
   #categories-max
   categories_max: 5
@@ -127,18 +127,20 @@ theme_config:
   favicon: /theme/favicon.ico
 
   follow:
-    github: 'https://github.com/catzillaorz'
+    github: "https://github.com/catzillaorz"
     # facebook: 'https://www.facebook.com/'
     # instagram: 'https://www.instagram.com/'
 
   #reward
   reward:
-    weixin: '//cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/wxpay2020-05-03.jpeg'
-    zhifubao: '//cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/alipay2020-05-03.jpeg'
+    weixin: "//cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/wxpay2020-05-03.jpeg"
+    zhifubao: "//cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/alipay2020-05-03.jpeg"
 
   friends:
     - name: V2EX
-      time: '2019-10-12'
-      url: 'https://www.v2ex.com/?r=catzilla'
-      logo: '//cdn.v2ex.com/gravatar/0b546050a6d45824e74c865bac768363?s=48&d=retro'
-      intro: 'V2EX'
+      time: "2019-10-12"
+      url: "https://www.v2ex.com/?r=catzilla"
+      logo: "//cdn.v2ex.com/gravatar/0b546050a6d45824e74c865bac768363?s=48&d=retro"
+      intro: "V2EX"
+#google-site-verification 添加在meta信息中
+google_site_verification: "_y3PGYn8yfOAyB50FziwyvBRF4_UYE90h2hnzhNl7vs"

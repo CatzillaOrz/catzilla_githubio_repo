@@ -1,32 +1,31 @@
 language: node_js
 node_js:
-- '10'
-cache: npm                    # 指定 npm 缓存方案，会缓存 $HOME/.npm 或 node_modules 文件夹
+  - "10"
+cache: npm # 指定 npm 缓存方案，会缓存 $HOME/.npm 或 node_modules 文件夹
 
-dist: trusty                  # 指定系统版本，trusty 是指 Ubuntu 14.04 发行版的名称
-sudo: required                # 是否需要 sudo 权限
+dist: trusty # 指定系统版本，trusty 是指 Ubuntu 14.04 发行版的名称
+sudo: required # 是否需要 sudo 权限
 
-branches:                     # 指定要构建的分支
-  only:                       # only 表示只构建以下分支
-  - master
+branches: # 指定要构建的分支
+  only: # only 表示只构建以下分支
+    - master
 
-before_install:               # install 阶段之前执行
-  - npm install -g hexo-cli   # 全局安装 Hexo 命令行工具
+before_install: # install 阶段之前执行
+  - npm install -g hexo-cli # 全局安装 Hexo 命令行工具
   - git clone https://github.com/shixiaohu2206/hexo-theme-huhu.git themes/hexo-theme-huhu
 
-install:                      # 在安装项目环境阶段需要运行的命令，一条一行，类似的还有 before_install
-  - npm install               # 安装 package.json 中的依赖
+install: # 在安装项目环境阶段需要运行的命令，一条一行，类似的还有 before_install
+  - npm install # 安装 package.json 中的依赖
 
-script:                       # 在构建阶段需要运行的命令，一条一行，类似的还有 before_script、after_script
-  - sed -i'' "s~landscape~hexo-theme-huhu/~" _config.yml                                                  #替换主题
+script: # 在构建阶段需要运行的命令，一条一行，类似的还有 before_script、after_script
+  - sed -i'' "s~landscape~hexo-theme-huhu/~" _config.yml #替换主题
   - hexo clean
-  - hexo generate             # Hexo 常规命令，执行清理和生成
-  - find -maxdepth 7 -mindepth 2 -name 'index.html' -exec sed -i'' "s~images/logo.jpeg~/cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/avatar2020-05-03.JPG~" {} +   #替换logo
-  - find -maxdepth 2 -mindepth 2 -name 'index.html' -exec sed -i'' 's~<head>~<head><meta name="google-site-verification" content="_y3PGYn8yfOAyB50FziwyvBRF4_UYE90h2hnzhNl7vs" />~' {} +   #提交搜索引擎
+  - hexo generate # Hexo 常规命令，执行清理和生成
+  - find -maxdepth 7 -mindepth 2 -name 'index.html' -exec sed -i'' "s~images/logo.jpeg~/cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/avatar2020-05-03.JPG~" {} + #替换logo
+  # - find -maxdepth 2 -mindepth 2 -name 'index.html' -exec sed -i'' 's~<head>~<head><meta name="google-site-verification" content="_y3PGYn8yfOAyB50FziwyvBRF4_UYE90h2hnzhNl7vs" />~' {} +   #提交搜索引擎
 
-
-after_success:                # script 阶段成功时执行，构建失败不会执行，其他同上
+after_success: # script 阶段成功时执行，构建失败不会执行，其他同上
   - git config --local user.name "catzilla"
   - git config --local user.email "catzilla@outlook.com"
   - sed -i'' "s~git@github.com:~https://${GITHUB_REPO_TOKEN}@github.com/~" _config.yml
-  - hexo deploy > /dev/null  # 通过 Hexo 的 deploy 命令部署博客
+  - hexo deploy > /dev/null # 通过 Hexo 的 deploy 命令部署博客
