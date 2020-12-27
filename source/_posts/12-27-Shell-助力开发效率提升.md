@@ -25,6 +25,13 @@ categories: Shell
 - 常用快捷键(bindkey)
 - 演示: 高亮/git/智能补全/跳转(j,d)…
 
+- MacOS彩蛋-批量替换git图床CDN地址
+
+```bash
+find ./ -type f -exec sed -i'' -e  "s/raw.githubusercontent.com\/CatzillaOrz\/imgcdn\/master\//cdn.jsdelivr.net\/gh\/catzillaorz\/imgcdn\//g" {} \;
+rm -rf *.md-e
+```
+
 ###### Terminal Cheatsheet
 
 - env | grep
