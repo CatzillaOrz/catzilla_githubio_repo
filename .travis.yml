@@ -21,8 +21,8 @@ script: # 在构建阶段需要运行的命令，一条一行，类似的还有 
   - sed -i'' "s~landscape~hexo-theme-huhu/~" _config.yml #替换主题
   - hexo clean
   - hexo generate # Hexo 常规命令，执行清理和生成
-  - find -maxdepth 7 -mindepth 2 -name 'index.html' -exec sed -i'g' "s~images/logo.jpeg~/cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/avatar2020-05-03.JPG~" {} + #替换logo
-  - find -maxdepth 7 -mindepth 2 -name 'index.html' -exec sed -i'g' "s~raw.githubusercontent.com/CatzillaOrz/imgcdn/master/~cdn.jsdelivr.net/gh/catzillaorz/imgcdn/~" {} + #替换logo
+  - find -maxdepth 7 -mindepth 2 -name 'index.html' -exec sed -i'' "s~images/logo.jpeg~/cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/avatar2020-05-03.JPG~" {} + #替换logo
+  - find -maxdepth 7 -mindepth 2 -name 'index.html' -exec sed -i'' "s~raw.githubusercontent.com/CatzillaOrz/imgcdn/master/~cdn.jsdelivr.net/gh/catzillaorz/imgcdn/~/g" {} + #替换logo
   # - find -maxdepth 2 -mindepth 2 -name 'index.html' -exec sed -i'' 's~<head>~<head><meta name="google-site-verification" content="_y3PGYn8yfOAyB50FziwyvBRF4_UYE90h2hnzhNl7vs" />~' {} +   #提交搜索引擎
 
 after_success: # script 阶段成功时执行，构建失败不会执行，其他同上
