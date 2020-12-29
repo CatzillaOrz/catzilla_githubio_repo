@@ -30,6 +30,9 @@ categories: Shell
 ```bash
 find ./ -type f -exec sed -i'' -e  "s/raw.githubusercontent.com\/CatzillaOrz\/imgcdn\/master\//cdn.jsdelivr.net\/gh\/catzillaorz\/imgcdn\//g" {} \;
 rm -rf *.md-e
+## 优化以上
+find ./ -type f -name '*12-29-*.md' -exec sed -i'' -e  "s/raw.githubusercontent.com\/CatzillaOrz\/imgcdn\/master\//cdn.jsdelivr.net\/gh\/catzillaorz\/imgcdn\//g" {} \;
+
 ```
 
 ###### Terminal Cheatsheet

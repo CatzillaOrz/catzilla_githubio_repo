@@ -26,3 +26,6 @@ $hexo new photo "My Gallery"
 - avatar
 ![avatar2020-05-03](https://cdn.jsdelivr.net/gh/catzillaorz/imgcdn/vsc_img/avatar2020-05-03.JPG)
 
+```bash
+find ./ -type f -name '*12-29-*.md' -exec sed -i'' -e  "s/raw.githubusercontent.com\/CatzillaOrz\/imgcdn\/master\//cdn.jsdelivr.net\/gh\/catzillaorz\/imgcdn\//g" {} \;
+```
